@@ -1,0 +1,4 @@
+# TWILIGHT VODKA LANDING PAGE
+
+> ![enter image description here](https://cdn.dribbble.com/userupload/6181303/file/original-63f4eedd011467dc87a3db1f684c7d86.png?compress=1&resize=1438x1079)
+Walking through Pinterest I came across a design for a vodka bottle that immediately caught my attention, the colors are bright and I loved the contrast with the blacks. Investigating I found the designer **"Terence Lopez"**. I loved the concept and that is why I decided to create the design for a landing page, starting from the color palette and using a layout that allows us to focus the eye on the true protagonist, this beautiful bottle.

@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+:root {
+  --green-vodka: #00ffbb;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Roboto";
+}
+body {
+  background-color: #111111;
+}
+main {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.side_bar {
+  border-right: solid #383838 0.5px;
+  height: 100vh;
+  width: 5em;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 0 3em 0;
+}
+
+.links-side {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2em;
+}
+.links-side li {
+  transform: rotate(-90deg);
+  font-weight: 300;
+  font-size: 14px;
+  cursor: pointer;
+}
+.center-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+nav {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  height: 6em;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin-right: 8em;
+  color: #636363;
+}
+nav ul li {
+  cursor: pointer;
+}
+.nav-links {
+  font-weight: 300;
+  font-size: 14px;
+  border-bottom: solid 2px transparent;
+  transition: ease-in-out 0.35s;
+  text-transform: uppercase;
+}
+.nav-links:hover {
+  border-bottom: solid 2px var(--green-vodka);
+  color: var(--green-vodka);
+}
+.hero {
+  width: 100%;
+  height: 100%;
+  background-image: url("../src/assets/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hero h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 80px;
+  width: 24%;
+  margin: 0.7em 0 0 3em;
+}
+.green-hero {
+  color: var(--green-vodka);
+}
+
+.news {
+  background-color: aliceblue;
+  width: 100%;
+  height: 8em;
+  background: rgba(0, 70, 51, 0.37);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  display: flex;
+}
+.side-a {
+  color: #fff;
+  font-weight: 100;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 8em 0 3em;
+  width: 60%;
+}
+.side-b{
+  display: flex;
+}
+.news-side{
+  height: 100%;
+  width: 30%;
+  background-image: url(../src/assets/news.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text-side{
+  color: #fff;
+  padding: 1em;
+  letter-spacing: 2px;
+}
+.text-side h3{
+  font-weight: 900;
+  font-size: 32px;
+  
+}
+.text-side p{
+  font-weight: 100;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.text-side p span{
+  font-weight: 300;
+  cursor: pointer;
+}
